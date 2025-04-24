@@ -42,7 +42,7 @@ const alunosDoSenai = [
 ]
 
 
-console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 +4}`)
+//console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 +4}`)
 
 //console.log(nome + " " + sobrenome)
 
