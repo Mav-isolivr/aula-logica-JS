@@ -6,20 +6,22 @@ const valoresDobrados = numeros.map(num => num * 2)
 
 const usuarios = [
     {
-        nome:"Mavi",
-        idade:"18",
+        nome:"João",
+        idade:52
     },
     {
-        nome:"Kurt",
-        idade:"20",
+        nome:"Maria",
+        idade: 40
     },
     {
-        nome:"Ket",
-        idade:"19",
+        nome:"Joana",
+        idade:30
     }
 ]
 
+const nomesUsuario = usuarios.map(usuario =>{
+    return `${usuario.nome} tem ${usuario.idade} anos`
+} )
 
+console.log("nomes de usuario",nomesUsuario)
 
-const nomesUsuario = usuarios.map(usuario => usuario.idade)
-console.log("nomes de usuários",nomesUsuario)
