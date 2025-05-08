@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    border: none;
+    background: rgb(144, 94, 156);
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
